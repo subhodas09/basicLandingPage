@@ -1,0 +1,45 @@
+/* LandingPage.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .title {
+    margin-top: 50px;
+    color: blue;
+  }
+  
+  .table {
+    margin-top: 50px;
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  .header-cell,
+  .cell {
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header-cell {
+    background-color: blue;
+    color: white;
+  }
+  
+  .row:nth-child(even) {
+    background-color: lightblue;
+  }
+  
